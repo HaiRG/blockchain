@@ -1,0 +1,22 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title  Block Chain
+    link(rel='stylesheet', type='text/css', href='/stylesheets/2.css')
+  body#b1
+    .top
+      a(href='/')   返回 
+    .left
+      form(method='post')
+        .d1
+          .ty  发送方 
+          input.te(type='text', name='content1')
+        .d2
+          .ty  接收方 
+          input.te(type='text', name='content2')
+        .d3
+          .ty  金额 
+          input.te(type='text', name='content3')
+        input.btn(type='submit', value='执行')
+
